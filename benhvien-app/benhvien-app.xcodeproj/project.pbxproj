@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B04FC4369D4547F02F3F8F6F /* Pods_benhvien_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598AE98675082ED3B0373D33 /* Pods_benhvien_app.framework */; };
+		EE4DD6321F261C1B00045772 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4DD6311F261C1B00045772 /* main.m */; };
+		EE4DD6351F261C1B00045772 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4DD6341F261C1B00045772 /* AppDelegate.m */; };
+		EE4DD6381F261C1B00045772 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4DD6371F261C1B00045772 /* ViewController.m */; };
+		EE4DD63B1F261C1B00045772 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4DD6391F261C1B00045772 /* Main.storyboard */; };
+		EE4DD63D1F261C1B00045772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE4DD63C1F261C1B00045772 /* Assets.xcassets */; };
+		EE4DD6401F261C1B00045772 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4DD63E1F261C1B00045772 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2086AA963AD4DAB6394B406B /* Pods-benhvien-appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-benhvien-appTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-benhvien-appTests/Pods-benhvien-appTests.release.xcconfig"; sourceTree = "<group>"; };
+		32A085CC16215416FA5ECACF /* Pods-benhvien-appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-benhvien-appTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-benhvien-appTests/Pods-benhvien-appTests.debug.xcconfig"; sourceTree = "<group>"; };
+		334B3ED5860A82592040BBD0 /* Pods-benhvien-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-benhvien-app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-benhvien-app/Pods-benhvien-app.debug.xcconfig"; sourceTree = "<group>"; };
+		598AE98675082ED3B0373D33 /* Pods_benhvien_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_benhvien_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EF5464A8CB7709FD3FE390C /* Pods-benhvien-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-benhvien-app.release.xcconfig"; path = "Pods/Target Support Files/Pods-benhvien-app/Pods-benhvien-app.release.xcconfig"; sourceTree = "<group>"; };
+		AE2BF3FC043148BD504340DE /* Pods-benhvien-appUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-benhvien-appUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-benhvien-appUITests/Pods-benhvien-appUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C1814005A7E9A4C301086EDD /* Pods_benhvien_appUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_benhvien_appUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE8091B234799981A869024 /* Pods_benhvien_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_benhvien_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEEB8B3AD47FBB13D7BCDB79 /* Pods-benhvien-appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-benhvien-appUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-benhvien-appUITests/Pods-benhvien-appUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE4DD62D1F261C1B00045772 /* benhvien-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "benhvien-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4DD6311F261C1B00045772 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE4DD6331F261C1B00045772 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE4DD6341F261C1B00045772 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE4DD6361F261C1B00045772 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE4DD6371F261C1B00045772 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE4DD63A1F261C1B00045772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE4DD63C1F261C1B00045772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE4DD63F1F261C1B00045772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE4DD6411F261C1B00045772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE4DD64A1F261C1C00045772 /* benhvien_appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = benhvien_appTests.m; sourceTree = "<group>"; };
+		EE4DD64C1F261C1C00045772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE4DD6551F261C1C00045772 /* benhvien_appUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = benhvien_appUITests.m; sourceTree = "<group>"; };
+		EE4DD6571F261C1C00045772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE4DD62A1F261C1B00045772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04FC4369D4547F02F3F8F6F /* Pods_benhvien_app.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63A192676F6913FBA1F94B63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				598AE98675082ED3B0373D33 /* Pods_benhvien_app.framework */,
+				CDE8091B234799981A869024 /* Pods_benhvien_appTests.framework */,
+				C1814005A7E9A4C301086EDD /* Pods_benhvien_appUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		783FDC936A0189808826AD94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				334B3ED5860A82592040BBD0 /* Pods-benhvien-app.debug.xcconfig */,
+				9EF5464A8CB7709FD3FE390C /* Pods-benhvien-app.release.xcconfig */,
+				32A085CC16215416FA5ECACF /* Pods-benhvien-appTests.debug.xcconfig */,
+				2086AA963AD4DAB6394B406B /* Pods-benhvien-appTests.release.xcconfig */,
+				DEEB8B3AD47FBB13D7BCDB79 /* Pods-benhvien-appUITests.debug.xcconfig */,
+				AE2BF3FC043148BD504340DE /* Pods-benhvien-appUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE4DD6241F261C1B00045772 = {
+			isa = PBXGroup;
+			children = (
+				EE4DD62F1F261C1B00045772 /* benhvien-app */,
+				EE4DD6491F261C1C00045772 /* benhvien-appTests */,
+				EE4DD6541F261C1C00045772 /* benhvien-appUITests */,
+				EE4DD62E1F261C1B00045772 /* Products */,
+				783FDC936A0189808826AD94 /* Pods */,
+				63A192676F6913FBA1F94B63 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE4DD62E1F261C1B00045772 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE4DD62D1F261C1B00045772 /* benhvien-app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE4DD62F1F261C1B00045772 /* benhvien-app */ = {
+			isa = PBXGroup;
+			children = (
+				EE4DD6331F261C1B00045772 /* AppDelegate.h */,
+				EE4DD6341F261C1B00045772 /* AppDelegate.m */,
+				EE4DD6361F261C1B00045772 /* ViewController.h */,
+				EE4DD6371F261C1B00045772 /* ViewController.m */,
+				EE4DD6391F261C1B00045772 /* Main.storyboard */,
+				EE4DD63C1F261C1B00045772 /* Assets.xcassets */,
+				EE4DD63E1F261C1B00045772 /* LaunchScreen.storyboard */,
+				EE4DD6411F261C1B00045772 /* Info.plist */,
+				EE4DD6301F261C1B00045772 /* Supporting Files */,
+			);
+			path = "benhvien-app";
+			sourceTree = "<group>";
+		};
+		EE4DD6301F261C1B00045772 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE4DD6311F261C1B00045772 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE4DD6491F261C1C00045772 /* benhvien-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE4DD64A1F261C1C00045772 /* benhvien_appTests.m */,
+				EE4DD64C1F261C1C00045772 /* Info.plist */,
+			);
+			path = "benhvien-appTests";
+			sourceTree = "<group>";
+		};
+		EE4DD6541F261C1C00045772 /* benhvien-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE4DD6551F261C1C00045772 /* benhvien_appUITests.m */,
+				EE4DD6571F261C1C00045772 /* Info.plist */,
+			);
+			path = "benhvien-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE4DD62C1F261C1B00045772 /* benhvien-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4DD65A1F261C1C00045772 /* Build configuration list for PBXNativeTarget "benhvien-app" */;
+			buildPhases = (
+				92E958E54DBE12673D018B57 /* [CP] Check Pods Manifest.lock */,
+				EE4DD6291F261C1B00045772 /* Sources */,
+				EE4DD62A1F261C1B00045772 /* Frameworks */,
+				EE4DD62B1F261C1B00045772 /* Resources */,
+				D17DC63FBF2F04FF7E607AA9 /* [CP] Embed Pods Frameworks */,
+				5A1C25D5F1E0C4EAA6EE7DC8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "benhvien-app";
+			productName = "benhvien-app";
+			productReference = EE4DD62D1F261C1B00045772 /* benhvien-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE4DD6251F261C1B00045772 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "507-8";
+				TargetAttributes = {
+					EE4DD62C1F261C1B00045772 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EE4DD6281F261C1B00045772 /* Build configuration list for PBXProject "benhvien-app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE4DD6241F261C1B00045772;
+			productRefGroup = EE4DD62E1F261C1B00045772 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE4DD62C1F261C1B00045772 /* benhvien-app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE4DD62B1F261C1B00045772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4DD6401F261C1B00045772 /* LaunchScreen.storyboard in Resources */,
+				EE4DD63D1F261C1B00045772 /* Assets.xcassets in Resources */,
+				EE4DD63B1F261C1B00045772 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A1C25D5F1E0C4EAA6EE7DC8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-benhvien-app/Pods-benhvien-app-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92E958E54DBE12673D018B57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D17DC63FBF2F04FF7E607AA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-benhvien-app/Pods-benhvien-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE4DD6291F261C1B00045772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4DD6381F261C1B00045772 /* ViewController.m in Sources */,
+				EE4DD6351F261C1B00045772 /* AppDelegate.m in Sources */,
+				EE4DD6321F261C1B00045772 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE4DD6391F261C1B00045772 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE4DD63A1F261C1B00045772 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE4DD63E1F261C1B00045772 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE4DD63F1F261C1B00045772 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE4DD6581F261C1C00045772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE4DD6591F261C1C00045772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE4DD65B1F261C1C00045772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 334B3ED5860A82592040BBD0 /* Pods-benhvien-app.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "benhvien-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "reddice.benhvien-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE4DD65C1F261C1C00045772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EF5464A8CB7709FD3FE390C /* Pods-benhvien-app.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "benhvien-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "reddice.benhvien-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE4DD6281F261C1B00045772 /* Build configuration list for PBXProject "benhvien-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4DD6581F261C1C00045772 /* Debug */,
+				EE4DD6591F261C1C00045772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE4DD65A1F261C1C00045772 /* Build configuration list for PBXNativeTarget "benhvien-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4DD65B1F261C1C00045772 /* Debug */,
+				EE4DD65C1F261C1C00045772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE4DD6251F261C1B00045772 /* Project object */;
+}
