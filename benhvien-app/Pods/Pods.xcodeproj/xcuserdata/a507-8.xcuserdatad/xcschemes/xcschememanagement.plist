@@ -14,12 +14,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-benhvien-appTests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-benhvien-appUITests.xcscheme</key>
+		<key>PureLayout.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -27,22 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>38F789AB53859B339AB29656B898C196</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>41FA54D12162DAD51D02FC58A2CD5034</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>65713AE2F8311ADCE37ECF4A7627720B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>971F55FDC7558F96E3ABC7A2C8F07F01</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>AEBDB91FA1BEF70BD39F0082C0B126CF</key>
+		<key>66BCAF3AA11D05D671C3938343F1E99F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

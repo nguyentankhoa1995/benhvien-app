@@ -7,97 +7,104 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0270D63644C5B5521F8A0ED0160A0F37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
-		0968524ED4DE8DF7834055C5B6089D72 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B46DBFF3A36C2A3BFA5CD06A1960E97F /* MBProgressHUD-dummy.m */; };
+		010086398F5E9220285854AA7892EBE7 /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F72D9503213B257661272F76BA705173 /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0968524ED4DE8DF7834055C5B6089D72 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08485A5697754E18ED0D8CD7F19F5C43 /* MBProgressHUD-dummy.m */; };
+		0F8D193849553373CFF584C7725B6F54 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 991A39975AC46A855E8C19B5FA601055 /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		14CA32AACADBC7D008311E6F720D583D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
-		2279412E99BE505E6BECE5E719F9A604 /* Pods-benhvien-appUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C265BBC0EEEAC551EAF732A9558351A /* Pods-benhvien-appUITests-dummy.m */; };
-		28A794912ED1E06B05D96DF5ED0AED19 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A83C101219E7ED4222CD65BCE24B0A5E /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1605E6DA63F60D321DA61B581FFCC52F /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 574FFF12910001050319CA3AD050DB6B /* NSLayoutConstraint+PureLayout.m */; };
+		179C79BB298829A426281C687C36E3E5 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D2AE8FB9B5CAF8B2ABF92199AB99347 /* NSArray+PureLayout.m */; };
+		236FEB5D023541E30A86499678709FB8 /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEA0663FC285635D73C2E587AB577AB /* PureLayout-dummy.m */; };
+		28A794912ED1E06B05D96DF5ED0AED19 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8656F4E9A873D490AE164EADD062EFE5 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		591485698B523536C29FF4BB1ABA4759 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 05896C4B701FF3B0FC0B3349AD2BB038 /* ALView+PureLayout.m */; };
 		5EFE3C1316AE3DF65B81286439987953 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7BDB2580B244756CFA046131516EF2 /* QuartzCore.framework */; };
-		6FDC2AD234DD93A0A48A32361CD1527D /* Pods-benhvien-app-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 420F71F24AA86BC80774CCF38CE95309 /* Pods-benhvien-app-dummy.m */; };
-		7E689A6F2C71BE5039A795F1CF73B4A1 /* Pods-benhvien-appTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD3354AF0723CC9155A167C6043675F /* Pods-benhvien-appTests-dummy.m */; };
-		897C38C8E3C31950E2E93A4D6937CCC4 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC88E9BB2DAE98E2B831183A06BFB8C /* MBProgressHUD.m */; };
-		A5BF8DBDD8660DBCFE712657F3D82BDA /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7EF56646DB1B2F653740B0FB77850B /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B575A607D46F7C3D9FD850F54C9B5550 /* Pods-benhvien-appTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 491BC64D42566FFB6B52367A83CE26CB /* Pods-benhvien-appTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B70839A280C7E4004600EBB942E19A3E /* Pods-benhvien-app-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E28FAE9CFD0F52039F1D2EC5951F962A /* Pods-benhvien-app-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F81E3FDBAE7F7AA991DB2AC98837309 /* Pods-benhvien-app-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B55F4FD858C9BA94334715F36DD6D1C6 /* Pods-benhvien-app-dummy.m */; };
+		75ED46B6EF5319D8A0E4226F4708C6F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
+		79B98DC4BD387189FF4AFE937A9C0372 /* PureLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6B184EE3700E3007BF9A2414570B39E /* PureLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		897C38C8E3C31950E2E93A4D6937CCC4 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DAABCAD5B0AA05D56E9E5B702510B2 /* MBProgressHUD.m */; };
+		9986BA378337709B63986465CC2B5D56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
+		99A9EDF1912C9BAF61278AF7FF223683 /* Pods-benhvien-app-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97918AAE1203BB49A88A6F003933709B /* Pods-benhvien-app-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2189755C618BFBED44B03078CC4B521 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BFAE7219862D103FA2576EDC242FC38 /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5BF8DBDD8660DBCFE712657F3D82BDA /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 48EFB3D6CA07A645DE33EAD4A8868AE8 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B59A458B7CC4C5FA33D29A2DC9C01D5B /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4FAEA8BCD1362CC280D281F8097971 /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFC3AAFFCCFE94270FA4A3040449FA18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409899CE1143F81E8130E2069D59605B /* CoreGraphics.framework */; };
-		E01CF65C373B15A080E613AA2CCBCB7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
-		E6DE3162F71D95C2574341BDCF4AC655 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
-		EC06DD3689298C3E67658A92398CACC9 /* Pods-benhvien-appUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B30D434312D93D28816377FE30AD32AE /* Pods-benhvien-appUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2DB0B1BFE7630A5357DE2483E6F7F9F /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 1393E67458F267A12E78BF9EF8405BA2 /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C80DB171BC22C9C4F16FE55539AD03B3 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = BE4226D3584F8B103AC1338231FC563D /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		09C8E5103B9CED662336717897028AA6 /* PBXContainerItemProxy */ = {
+		5044669CADD24CF4E5C336FB71BE3189 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 41FA54D12162DAD51D02FC58A2CD5034;
 			remoteInfo = MBProgressHUD;
 		};
+		C295A3713B6536ED9A63F488A16D7347 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66BCAF3AA11D05D671C3938343F1E99F;
+			remoteInfo = PureLayout;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		077867855A7A0A03F5A013F2BA585363 /* Pods-benhvien-appTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-benhvien-appTests-frameworks.sh"; sourceTree = "<group>"; };
+		05896C4B701FF3B0FC0B3349AD2BB038 /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
+		06A2D0A33851B470C47251873FBDDBF8 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		08485A5697754E18ED0D8CD7F19F5C43 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		0BFAE7219862D103FA2576EDC242FC38 /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
+		114D481E24A717B8AF16F3B5C919DE4E /* Pods_benhvien_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_benhvien_app.framework; path = "Pods-benhvien-app.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		2161E2042F2D2547218B18E44ED5FFE6 /* Pods-benhvien-appUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-benhvien-appUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2A76D5BCE5FAF912AEDC0CF46051DF5A /* Pods-benhvien-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-benhvien-app.release.xcconfig"; sourceTree = "<group>"; };
-		38B2940EB79AB26253A76D947D0146A7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		394D865DC9354CB27F923C4C65D96778 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3DDF1EB7853EACB110CD2BCCD6A0C5FA /* Pods-benhvien-app-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-benhvien-app-acknowledgements.plist"; sourceTree = "<group>"; };
-		40502D114918B0203074D9E51EA5218A /* Pods-benhvien-appTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-benhvien-appTests-resources.sh"; sourceTree = "<group>"; };
+		1393D668455397DB5394D762E6FD769C /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PureLayout.modulemap; sourceTree = "<group>"; };
+		1393E67458F267A12E78BF9EF8405BA2 /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
+		39C3266AA51F3CD1FCACC3546B31CD80 /* PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.xcconfig; sourceTree = "<group>"; };
 		409899CE1143F81E8130E2069D59605B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		40BA966BA09CEE8052F1480B6BF74BB7 /* Pods-benhvien-appTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-benhvien-appTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		41AB858D4531688D9FF636EB85AF3666 /* Pods-benhvien-appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-benhvien-appUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		420F71F24AA86BC80774CCF38CE95309 /* Pods-benhvien-app-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-benhvien-app-dummy.m"; sourceTree = "<group>"; };
-		45F7B1ADFBAA5AD7174555013C33C5A8 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
-		491BC64D42566FFB6B52367A83CE26CB /* Pods-benhvien-appTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-benhvien-appTests-umbrella.h"; sourceTree = "<group>"; };
-		4C1EE4B97D02463CB7C4D4F85F068867 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
-		4C265BBC0EEEAC551EAF732A9558351A /* Pods-benhvien-appUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-benhvien-appUITests-dummy.m"; sourceTree = "<group>"; };
-		4DF4480349DB20B69EC0B224C146076E /* Pods-benhvien-appTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-benhvien-appTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		520D190D559D2FE793D5029927992B9B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5462D269BDA43A8177D7A795732B8F1F /* Pods-benhvien-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-benhvien-app.debug.xcconfig"; sourceTree = "<group>"; };
-		5A73B29663FC18854945B7769FC8915F /* Pods-benhvien-app.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-benhvien-app.modulemap"; sourceTree = "<group>"; };
+		409E87B4509E3A4A7CF51C341E959C5B /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		43599D7E3063BD7D7E6C78CB6257722E /* Pods-benhvien-app-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-benhvien-app-frameworks.sh"; sourceTree = "<group>"; };
+		48EFB3D6CA07A645DE33EAD4A8868AE8 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		4E7B250A305973323534A1A3A20E0EC4 /* Pods-benhvien-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-benhvien-app.release.xcconfig"; sourceTree = "<group>"; };
+		574FFF12910001050319CA3AD050DB6B /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		5C6099ED967224A4F598422F88B547C0 /* Pods-benhvien-app.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-benhvien-app.modulemap"; sourceTree = "<group>"; };
 		5F7BDB2580B244756CFA046131516EF2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		61259D336AC49BA98F2DF28FE0B3FFAC /* Pods-benhvien-appUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-benhvien-appUITests.release.xcconfig"; sourceTree = "<group>"; };
-		62B8C2DF25455B122F091E0528719264 /* Pods-benhvien-appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-benhvien-appTests.release.xcconfig"; sourceTree = "<group>"; };
-		6A7039122BA0251F713D6301E2C2FF47 /* Pods-benhvien-app-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-benhvien-app-frameworks.sh"; sourceTree = "<group>"; };
-		8CC88E9BB2DAE98E2B831183A06BFB8C /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		7D2AE8FB9B5CAF8B2ABF92199AB99347 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		7DB5974F192BB921B817574BA419822E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8656F4E9A873D490AE164EADD062EFE5 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		8A4FAEA8BCD1362CC280D281F8097971 /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
+		8F35919BEAA14743623074CF6CCCEC2D /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
+		9271099002A87CAF3F7D75F1F2B70146 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9426B6CB402EAF2E3DDF502315392E74 /* Pods-benhvien-appUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-benhvien-appUITests.modulemap"; sourceTree = "<group>"; };
-		9525A411AF2C584A73DE24BFF1C0CEE4 /* Pods-benhvien-appTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-benhvien-appTests.modulemap"; sourceTree = "<group>"; };
-		978ECB1800990C2DEECB70FF61E08FF2 /* Pods-benhvien-app-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-benhvien-app-resources.sh"; sourceTree = "<group>"; };
-		97F9C72F241F80318D9BFDD01196E4D6 /* Pods-benhvien-appUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-benhvien-appUITests-resources.sh"; sourceTree = "<group>"; };
-		99FFF955C88F48C1F3F8803E683A0B2D /* Pods_benhvien_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_benhvien_app.framework; path = "Pods-benhvien-app.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B3A893DEE5BD0AA124CF34A0CA9BC16 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1DEEDD1018137AC13EA91FEE584D92D /* Pods-benhvien-appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-benhvien-appTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A83C101219E7ED4222CD65BCE24B0A5E /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		B30D434312D93D28816377FE30AD32AE /* Pods-benhvien-appUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-benhvien-appUITests-umbrella.h"; sourceTree = "<group>"; };
-		B46DBFF3A36C2A3BFA5CD06A1960E97F /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		C3CF0C5E3FC2CCD6551657C950D67AFA /* Pods-benhvien-appUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-benhvien-appUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CADAB5DA895740F134079B3B2CD0669D /* Pods-benhvien-app-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-benhvien-app-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D09B9761DBC9E03DC40C6CFCB07CC0D9 /* Pods_benhvien_appUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_benhvien_appUITests.framework; path = "Pods-benhvien-appUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D207BF578DBF8F816FC093112B9063EF /* Pods-benhvien-appUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-benhvien-appUITests-frameworks.sh"; sourceTree = "<group>"; };
-		D3D963020262D5B88A972449628F3A15 /* Pods_benhvien_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_benhvien_appTests.framework; path = "Pods-benhvien-appTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD71A7E2391B90C816D7330BB6B999E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E28FAE9CFD0F52039F1D2EC5951F962A /* Pods-benhvien-app-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-benhvien-app-umbrella.h"; sourceTree = "<group>"; };
-		EA7EF56646DB1B2F653740B0FB77850B /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		EAD3354AF0723CC9155A167C6043675F /* Pods-benhvien-appTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-benhvien-appTests-dummy.m"; sourceTree = "<group>"; };
-		F561804416163A2E5EFC23029D9BD9A3 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		97918AAE1203BB49A88A6F003933709B /* Pods-benhvien-app-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-benhvien-app-umbrella.h"; sourceTree = "<group>"; };
+		991A39975AC46A855E8C19B5FA601055 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
+		A3EF9AF6E8810B0EA022DCE5D1C5B9BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B55F4FD858C9BA94334715F36DD6D1C6 /* Pods-benhvien-app-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-benhvien-app-dummy.m"; sourceTree = "<group>"; };
+		B8DAABCAD5B0AA05D56E9E5B702510B2 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		B9A4CF358F6A365F75331FCFF96D4B7E /* Pods-benhvien-app-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-benhvien-app-resources.sh"; sourceTree = "<group>"; };
+		BE4226D3584F8B103AC1338231FC563D /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		C4F1F519A056687D40C360742AAA2E64 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E070AC386ADA2134C0E37D33519904DF /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PureLayout.framework; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3A285315C9AA54805D5A5824B88DE83 /* Pods-benhvien-app-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-benhvien-app-acknowledgements.plist"; sourceTree = "<group>"; };
+		E6B184EE3700E3007BF9A2414570B39E /* PureLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-umbrella.h"; sourceTree = "<group>"; };
+		ECEA0663FC285635D73C2E587AB577AB /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
+		F2F155D17FCE3BF40E6BCA19947CDB6E /* Pods-benhvien-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-benhvien-app.debug.xcconfig"; sourceTree = "<group>"; };
+		F4FD6147B0A82500104A6ECE94C72D6A /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		F72D9503213B257661272F76BA705173 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		FE0A1BE534A91318FA14C15A9D1691A9 /* Pods-benhvien-app-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-benhvien-app-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		56E70EEEB1D65A2366C379BB42E00A7D /* Frameworks */ = {
+		21FE4F49488676F2A6219ED2724F26F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0270D63644C5B5521F8A0ED0160A0F37 /* Foundation.framework in Frameworks */,
+				75ED46B6EF5319D8A0E4226F4708C6F2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8BB96CB9032E3893D86F18AC930B421C /* Frameworks */ = {
+		74FF77F37EDF48A787D9CFA95FE02EFA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E01CF65C373B15A080E613AA2CCBCB7D /* Foundation.framework in Frameworks */,
+				9986BA378337709B63986465CC2B5D56 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,35 +118,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CDD6C47DF297C072BA723255B35F639A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E6DE3162F71D95C2574341BDCF4AC655 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0DDF60F7973CFD3BA8BBCE1B5F0FE96C /* Pods-benhvien-app */ = {
-			isa = PBXGroup;
-			children = (
-				38B2940EB79AB26253A76D947D0146A7 /* Info.plist */,
-				5A73B29663FC18854945B7769FC8915F /* Pods-benhvien-app.modulemap */,
-				CADAB5DA895740F134079B3B2CD0669D /* Pods-benhvien-app-acknowledgements.markdown */,
-				3DDF1EB7853EACB110CD2BCCD6A0C5FA /* Pods-benhvien-app-acknowledgements.plist */,
-				420F71F24AA86BC80774CCF38CE95309 /* Pods-benhvien-app-dummy.m */,
-				6A7039122BA0251F713D6301E2C2FF47 /* Pods-benhvien-app-frameworks.sh */,
-				978ECB1800990C2DEECB70FF61E08FF2 /* Pods-benhvien-app-resources.sh */,
-				E28FAE9CFD0F52039F1D2EC5951F962A /* Pods-benhvien-app-umbrella.h */,
-				5462D269BDA43A8177D7A795732B8F1F /* Pods-benhvien-app.debug.xcconfig */,
-				2A76D5BCE5FAF912AEDC0CF46051DF5A /* Pods-benhvien-app.release.xcconfig */,
-			);
-			name = "Pods-benhvien-app";
-			path = "Target Support Files/Pods-benhvien-app";
-			sourceTree = "<group>";
-		};
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,10 +129,58 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5836A44A75C427EBF4739C55E2315758 /* Pods */ = {
+		13CF275EC5E57060506E0D49C9EE2C58 /* Pods-benhvien-app */ = {
 			isa = PBXGroup;
 			children = (
-				9841862FE02BD09196B31E3026B4325C /* MBProgressHUD */,
+				C4F1F519A056687D40C360742AAA2E64 /* Info.plist */,
+				5C6099ED967224A4F598422F88B547C0 /* Pods-benhvien-app.modulemap */,
+				FE0A1BE534A91318FA14C15A9D1691A9 /* Pods-benhvien-app-acknowledgements.markdown */,
+				E3A285315C9AA54805D5A5824B88DE83 /* Pods-benhvien-app-acknowledgements.plist */,
+				B55F4FD858C9BA94334715F36DD6D1C6 /* Pods-benhvien-app-dummy.m */,
+				43599D7E3063BD7D7E6C78CB6257722E /* Pods-benhvien-app-frameworks.sh */,
+				B9A4CF358F6A365F75331FCFF96D4B7E /* Pods-benhvien-app-resources.sh */,
+				97918AAE1203BB49A88A6F003933709B /* Pods-benhvien-app-umbrella.h */,
+				F2F155D17FCE3BF40E6BCA19947CDB6E /* Pods-benhvien-app.debug.xcconfig */,
+				4E7B250A305973323534A1A3A20E0EC4 /* Pods-benhvien-app.release.xcconfig */,
+			);
+			name = "Pods-benhvien-app";
+			path = "Target Support Files/Pods-benhvien-app";
+			sourceTree = "<group>";
+		};
+		3A6EF5E039F0E64A3CE67DFF9A9D9A1E /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				991A39975AC46A855E8C19B5FA601055 /* ALView+PureLayout.h */,
+				05896C4B701FF3B0FC0B3349AD2BB038 /* ALView+PureLayout.m */,
+				F72D9503213B257661272F76BA705173 /* NSArray+PureLayout.h */,
+				7D2AE8FB9B5CAF8B2ABF92199AB99347 /* NSArray+PureLayout.m */,
+				BE4226D3584F8B103AC1338231FC563D /* NSLayoutConstraint+PureLayout.h */,
+				574FFF12910001050319CA3AD050DB6B /* NSLayoutConstraint+PureLayout.m */,
+				1393E67458F267A12E78BF9EF8405BA2 /* PureLayout.h */,
+				8A4FAEA8BCD1362CC280D281F8097971 /* PureLayout+Internal.h */,
+				0BFAE7219862D103FA2576EDC242FC38 /* PureLayoutDefines.h */,
+				988DF94EFE90EA8086AE5EC6FA79497B /* Support Files */,
+			);
+			name = PureLayout;
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		4654D85E0105A0B658CED1FB46D1DB41 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				48EFB3D6CA07A645DE33EAD4A8868AE8 /* MBProgressHUD.h */,
+				B8DAABCAD5B0AA05D56E9E5B702510B2 /* MBProgressHUD.m */,
+				895381F764BCF617FF809306E6959A61 /* Support Files */,
+			);
+			name = MBProgressHUD;
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		54CFF36DB986BAA9415BF3BBFCBCDD6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4654D85E0105A0B658CED1FB46D1DB41 /* MBProgressHUD */,
+				3A6EF5E039F0E64A3CE67DFF9A9D9A1E /* PureLayout */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -166,22 +195,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6C6B5CA86BBB33A0191F57316F4F9C6E /* Pods-benhvien-appTests */ = {
+		62E2231948629758402EBC341C1DD587 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				520D190D559D2FE793D5029927992B9B /* Info.plist */,
-				9525A411AF2C584A73DE24BFF1C0CEE4 /* Pods-benhvien-appTests.modulemap */,
-				40BA966BA09CEE8052F1480B6BF74BB7 /* Pods-benhvien-appTests-acknowledgements.markdown */,
-				4DF4480349DB20B69EC0B224C146076E /* Pods-benhvien-appTests-acknowledgements.plist */,
-				EAD3354AF0723CC9155A167C6043675F /* Pods-benhvien-appTests-dummy.m */,
-				077867855A7A0A03F5A013F2BA585363 /* Pods-benhvien-appTests-frameworks.sh */,
-				40502D114918B0203074D9E51EA5218A /* Pods-benhvien-appTests-resources.sh */,
-				491BC64D42566FFB6B52367A83CE26CB /* Pods-benhvien-appTests-umbrella.h */,
-				A1DEEDD1018137AC13EA91FEE584D92D /* Pods-benhvien-appTests.debug.xcconfig */,
-				62B8C2DF25455B122F091E0528719264 /* Pods-benhvien-appTests.release.xcconfig */,
+				13CF275EC5E57060506E0D49C9EE2C58 /* Pods-benhvien-app */,
 			);
-			name = "Pods-benhvien-appTests";
-			path = "Target Support Files/Pods-benhvien-appTests";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -189,74 +208,48 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				5836A44A75C427EBF4739C55E2315758 /* Pods */,
-				96420CFB6A73E5DA97DD7C747B637C30 /* Products */,
-				BFD123F76C3E759AA76CA2B28B471056 /* Targets Support Files */,
+				54CFF36DB986BAA9415BF3BBFCBCDD6B /* Pods */,
+				F0101CBDC5EAA561299E4940DB3CFE78 /* Products */,
+				62E2231948629758402EBC341C1DD587 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		96420CFB6A73E5DA97DD7C747B637C30 /* Products */ = {
+		895381F764BCF617FF809306E6959A61 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9B3A893DEE5BD0AA124CF34A0CA9BC16 /* MBProgressHUD.framework */,
-				99FFF955C88F48C1F3F8803E683A0B2D /* Pods_benhvien_app.framework */,
-				D3D963020262D5B88A972449628F3A15 /* Pods_benhvien_appTests.framework */,
-				D09B9761DBC9E03DC40C6CFCB07CC0D9 /* Pods_benhvien_appUITests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9841862FE02BD09196B31E3026B4325C /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				EA7EF56646DB1B2F653740B0FB77850B /* MBProgressHUD.h */,
-				8CC88E9BB2DAE98E2B831183A06BFB8C /* MBProgressHUD.m */,
-				A965BDBE5FC4856535619D751B2F0F38 /* Support Files */,
-			);
-			name = MBProgressHUD;
-			path = MBProgressHUD;
-			sourceTree = "<group>";
-		};
-		A965BDBE5FC4856535619D751B2F0F38 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DD71A7E2391B90C816D7330BB6B999E4 /* Info.plist */,
-				45F7B1ADFBAA5AD7174555013C33C5A8 /* MBProgressHUD.modulemap */,
-				4C1EE4B97D02463CB7C4D4F85F068867 /* MBProgressHUD.xcconfig */,
-				B46DBFF3A36C2A3BFA5CD06A1960E97F /* MBProgressHUD-dummy.m */,
-				F561804416163A2E5EFC23029D9BD9A3 /* MBProgressHUD-prefix.pch */,
-				A83C101219E7ED4222CD65BCE24B0A5E /* MBProgressHUD-umbrella.h */,
+				A3EF9AF6E8810B0EA022DCE5D1C5B9BB /* Info.plist */,
+				F4FD6147B0A82500104A6ECE94C72D6A /* MBProgressHUD.modulemap */,
+				06A2D0A33851B470C47251873FBDDBF8 /* MBProgressHUD.xcconfig */,
+				08485A5697754E18ED0D8CD7F19F5C43 /* MBProgressHUD-dummy.m */,
+				409E87B4509E3A4A7CF51C341E959C5B /* MBProgressHUD-prefix.pch */,
+				8656F4E9A873D490AE164EADD062EFE5 /* MBProgressHUD-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/MBProgressHUD";
 			sourceTree = "<group>";
 		};
-		BFD123F76C3E759AA76CA2B28B471056 /* Targets Support Files */ = {
+		988DF94EFE90EA8086AE5EC6FA79497B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0DDF60F7973CFD3BA8BBCE1B5F0FE96C /* Pods-benhvien-app */,
-				6C6B5CA86BBB33A0191F57316F4F9C6E /* Pods-benhvien-appTests */,
-				F79408D06BE39E4B962B2EDDB2F24778 /* Pods-benhvien-appUITests */,
+				7DB5974F192BB921B817574BA419822E /* Info.plist */,
+				1393D668455397DB5394D762E6FD769C /* PureLayout.modulemap */,
+				39C3266AA51F3CD1FCACC3546B31CD80 /* PureLayout.xcconfig */,
+				ECEA0663FC285635D73C2E587AB577AB /* PureLayout-dummy.m */,
+				8F35919BEAA14743623074CF6CCCEC2D /* PureLayout-prefix.pch */,
+				E6B184EE3700E3007BF9A2414570B39E /* PureLayout-umbrella.h */,
 			);
-			name = "Targets Support Files";
+			name = "Support Files";
+			path = "../Target Support Files/PureLayout";
 			sourceTree = "<group>";
 		};
-		F79408D06BE39E4B962B2EDDB2F24778 /* Pods-benhvien-appUITests */ = {
+		F0101CBDC5EAA561299E4940DB3CFE78 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				394D865DC9354CB27F923C4C65D96778 /* Info.plist */,
-				9426B6CB402EAF2E3DDF502315392E74 /* Pods-benhvien-appUITests.modulemap */,
-				2161E2042F2D2547218B18E44ED5FFE6 /* Pods-benhvien-appUITests-acknowledgements.markdown */,
-				C3CF0C5E3FC2CCD6551657C950D67AFA /* Pods-benhvien-appUITests-acknowledgements.plist */,
-				4C265BBC0EEEAC551EAF732A9558351A /* Pods-benhvien-appUITests-dummy.m */,
-				D207BF578DBF8F816FC093112B9063EF /* Pods-benhvien-appUITests-frameworks.sh */,
-				97F9C72F241F80318D9BFDD01196E4D6 /* Pods-benhvien-appUITests-resources.sh */,
-				B30D434312D93D28816377FE30AD32AE /* Pods-benhvien-appUITests-umbrella.h */,
-				41AB858D4531688D9FF636EB85AF3666 /* Pods-benhvien-appUITests.debug.xcconfig */,
-				61259D336AC49BA98F2DF28FE0B3FFAC /* Pods-benhvien-appUITests.release.xcconfig */,
+				9271099002A87CAF3F7D75F1F2B70146 /* MBProgressHUD.framework */,
+				114D481E24A717B8AF16F3B5C919DE4E /* Pods_benhvien_app.framework */,
+				E070AC386ADA2134C0E37D33519904DF /* PureLayout.framework */,
 			);
-			name = "Pods-benhvien-appUITests";
-			path = "Target Support Files/Pods-benhvien-appUITests";
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,33 +264,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		714F2E2B3F2F64DF8AD007B319113759 /* Headers */ = {
+		468CC9E25B8E8BFF5276D53EDEE5B3CB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B70839A280C7E4004600EBB942E19A3E /* Pods-benhvien-app-umbrella.h in Headers */,
+				0F8D193849553373CFF584C7725B6F54 /* ALView+PureLayout.h in Headers */,
+				010086398F5E9220285854AA7892EBE7 /* NSArray+PureLayout.h in Headers */,
+				C80DB171BC22C9C4F16FE55539AD03B3 /* NSLayoutConstraint+PureLayout.h in Headers */,
+				B59A458B7CC4C5FA33D29A2DC9C01D5B /* PureLayout+Internal.h in Headers */,
+				79B98DC4BD387189FF4AFE937A9C0372 /* PureLayout-umbrella.h in Headers */,
+				C2DB0B1BFE7630A5357DE2483E6F7F9F /* PureLayout.h in Headers */,
+				A2189755C618BFBED44B03078CC4B521 /* PureLayoutDefines.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1EA292A3CF1A77692A9CFADD2DF58A2 /* Headers */ = {
+		5720266CDFF85015A54769C520471AF5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B575A607D46F7C3D9FD850F54C9B5550 /* Pods-benhvien-appTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E885EAAE6458AAE7978AB26E70A5B9A5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EC06DD3689298C3E67658A92398CACC9 /* Pods-benhvien-appUITests-umbrella.h in Headers */,
+				99A9EDF1912C9BAF61278AF7FF223683 /* Pods-benhvien-app-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		38F789AB53859B339AB29656B898C196 /* Pods-benhvien-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E993F30CC76BD32F65ACBA9DEF4BE10 /* Build configuration list for PBXNativeTarget "Pods-benhvien-app" */;
+			buildPhases = (
+				433A9651C61F60FEB47AF0B354D36693 /* Sources */,
+				74FF77F37EDF48A787D9CFA95FE02EFA /* Frameworks */,
+				5720266CDFF85015A54769C520471AF5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B3AFA1DF7EDFD139BA4D29AA49E1536 /* PBXTargetDependency */,
+				0B9E8600C0E68356F2FD8897721CA0C0 /* PBXTargetDependency */,
+			);
+			name = "Pods-benhvien-app";
+			productName = "Pods-benhvien-app";
+			productReference = 114D481E24A717B8AF16F3B5C919DE4E /* Pods_benhvien_app.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		41FA54D12162DAD51D02FC58A2CD5034 /* MBProgressHUD */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC1874913BA1F82C4953C3C7F551AB22 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
@@ -312,59 +322,24 @@
 			);
 			name = MBProgressHUD;
 			productName = MBProgressHUD;
-			productReference = 9B3A893DEE5BD0AA124CF34A0CA9BC16 /* MBProgressHUD.framework */;
+			productReference = 9271099002A87CAF3F7D75F1F2B70146 /* MBProgressHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		65713AE2F8311ADCE37ECF4A7627720B /* Pods-benhvien-app */ = {
+		66BCAF3AA11D05D671C3938343F1E99F /* PureLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E99FB2DA70F61093B51505DE9389F81 /* Build configuration list for PBXNativeTarget "Pods-benhvien-app" */;
+			buildConfigurationList = 407D464596BCB3AF89AC2C045E3A83C1 /* Build configuration list for PBXNativeTarget "PureLayout" */;
 			buildPhases = (
-				EDF18DAECD69838C8B83259F8A4498E4 /* Sources */,
-				CDD6C47DF297C072BA723255B35F639A /* Frameworks */,
-				714F2E2B3F2F64DF8AD007B319113759 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5F990F768D2BFB07C364216FA02C5376 /* PBXTargetDependency */,
-			);
-			name = "Pods-benhvien-app";
-			productName = "Pods-benhvien-app";
-			productReference = 99FFF955C88F48C1F3F8803E683A0B2D /* Pods_benhvien_app.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		971F55FDC7558F96E3ABC7A2C8F07F01 /* Pods-benhvien-appUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 942645B110C055A29FE6E50C35577723 /* Build configuration list for PBXNativeTarget "Pods-benhvien-appUITests" */;
-			buildPhases = (
-				51F2AA2BEE02C0BEAE22AB31D5D1DF79 /* Sources */,
-				8BB96CB9032E3893D86F18AC930B421C /* Frameworks */,
-				E885EAAE6458AAE7978AB26E70A5B9A5 /* Headers */,
+				1FC94940491447A589BBB6BB74E85EF0 /* Sources */,
+				21FE4F49488676F2A6219ED2724F26F2 /* Frameworks */,
+				468CC9E25B8E8BFF5276D53EDEE5B3CB /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-benhvien-appUITests";
-			productName = "Pods-benhvien-appUITests";
-			productReference = D09B9761DBC9E03DC40C6CFCB07CC0D9 /* Pods_benhvien_appUITests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		AEBDB91FA1BEF70BD39F0082C0B126CF /* Pods-benhvien-appTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C67A6E537B2DF7C97CF3EAD64110D796 /* Build configuration list for PBXNativeTarget "Pods-benhvien-appTests" */;
-			buildPhases = (
-				3A65FE51FAF39C5CE4F2A0E4B214EFC1 /* Sources */,
-				56E70EEEB1D65A2366C379BB42E00A7D /* Frameworks */,
-				B1EA292A3CF1A77692A9CFADD2DF58A2 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-benhvien-appTests";
-			productName = "Pods-benhvien-appTests";
-			productReference = D3D963020262D5B88A972449628F3A15 /* Pods_benhvien_appTests.framework */;
+			name = PureLayout;
+			productName = PureLayout;
+			productReference = E070AC386ADA2134C0E37D33519904DF /* PureLayout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -384,40 +359,34 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 96420CFB6A73E5DA97DD7C747B637C30 /* Products */;
+			productRefGroup = F0101CBDC5EAA561299E4940DB3CFE78 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				41FA54D12162DAD51D02FC58A2CD5034 /* MBProgressHUD */,
-				65713AE2F8311ADCE37ECF4A7627720B /* Pods-benhvien-app */,
-				AEBDB91FA1BEF70BD39F0082C0B126CF /* Pods-benhvien-appTests */,
-				971F55FDC7558F96E3ABC7A2C8F07F01 /* Pods-benhvien-appUITests */,
+				38F789AB53859B339AB29656B898C196 /* Pods-benhvien-app */,
+				66BCAF3AA11D05D671C3938343F1E99F /* PureLayout */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3A65FE51FAF39C5CE4F2A0E4B214EFC1 /* Sources */ = {
+		1FC94940491447A589BBB6BB74E85EF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E689A6F2C71BE5039A795F1CF73B4A1 /* Pods-benhvien-appTests-dummy.m in Sources */,
+				591485698B523536C29FF4BB1ABA4759 /* ALView+PureLayout.m in Sources */,
+				179C79BB298829A426281C687C36E3E5 /* NSArray+PureLayout.m in Sources */,
+				1605E6DA63F60D321DA61B581FFCC52F /* NSLayoutConstraint+PureLayout.m in Sources */,
+				236FEB5D023541E30A86499678709FB8 /* PureLayout-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		51F2AA2BEE02C0BEAE22AB31D5D1DF79 /* Sources */ = {
+		433A9651C61F60FEB47AF0B354D36693 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2279412E99BE505E6BECE5E719F9A604 /* Pods-benhvien-appUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EDF18DAECD69838C8B83259F8A4498E4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6FDC2AD234DD93A0A48A32361CD1527D /* Pods-benhvien-app-dummy.m in Sources */,
+				6F81E3FDBAE7F7AA991DB2AC98837309 /* Pods-benhvien-app-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,18 +402,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5F990F768D2BFB07C364216FA02C5376 /* PBXTargetDependency */ = {
+		0B9E8600C0E68356F2FD8897721CA0C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PureLayout;
+			target = 66BCAF3AA11D05D671C3938343F1E99F /* PureLayout */;
+			targetProxy = C295A3713B6536ED9A63F488A16D7347 /* PBXContainerItemProxy */;
+		};
+		9B3AFA1DF7EDFD139BA4D29AA49E1536 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MBProgressHUD;
 			target = 41FA54D12162DAD51D02FC58A2CD5034 /* MBProgressHUD */;
-			targetProxy = 09C8E5103B9CED662336717897028AA6 /* PBXContainerItemProxy */;
+			targetProxy = 5044669CADD24CF4E5C336FB71BE3189 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1B0255C6616E7FBE4AB6AA38485ACA9F /* Debug */ = {
+		2BD512D66129BCD035EB768FD319C4E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41AB858D4531688D9FF636EB85AF3666 /* Pods-benhvien-appUITests.debug.xcconfig */;
+			baseConfigurationReference = 39C3266AA51F3CD1FCACC3546B31CD80 /* PureLayout.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -458,18 +433,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-benhvien-appUITests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureLayout/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-benhvien-appUITests/Pods-benhvien-appUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_benhvien_appUITests;
+				PRODUCT_NAME = PureLayout;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -478,9 +449,9 @@
 			};
 			name = Debug;
 		};
-		1E179114FFEC795DB079B4E6EE11F00F /* Debug */ = {
+		8D92A99688C12B3EA778A4F9932DB9CE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1DEEDD1018137AC13EA91FEE584D92D /* Pods-benhvien-appTests.debug.xcconfig */;
+			baseConfigurationReference = 06A2D0A33851B470C47251873FBDDBF8 /* MBProgressHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -494,18 +465,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-benhvien-appTests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-benhvien-appTests/Pods-benhvien-appTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_benhvien_appTests;
+				PRODUCT_NAME = MBProgressHUD;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -514,9 +481,9 @@
 			};
 			name = Debug;
 		};
-		2A73DD267AE7BC13D17A24C023E34987 /* Debug */ = {
+		A1A19D0F3F58FC939B5212C28C8C621A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5462D269BDA43A8177D7A795732B8F1F /* Pods-benhvien-app.debug.xcconfig */;
+			baseConfigurationReference = F2F155D17FCE3BF40E6BCA19947CDB6E /* Pods-benhvien-app.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -550,9 +517,9 @@
 			};
 			name = Debug;
 		};
-		3B5EC3EEBEEE4CCE83831574DE14C07F /* Release */ = {
+		B74102B56A0D17FCD9392E85887A20AA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61259D336AC49BA98F2DF28FE0B3FFAC /* Pods-benhvien-appUITests.release.xcconfig */;
+			baseConfigurationReference = 4E7B250A305973323534A1A3A20E0EC4 /* Pods-benhvien-app.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -566,18 +533,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-benhvien-appUITests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-benhvien-app/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-benhvien-appUITests/Pods-benhvien-appUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-benhvien-app/Pods-benhvien-app.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_benhvien_appUITests;
+				PRODUCT_NAME = Pods_benhvien_app;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -585,38 +552,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		8D92A99688C12B3EA778A4F9932DB9CE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C1EE4B97D02463CB7C4D4F85F068867 /* MBProgressHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = MBProgressHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		C9AB81BFD05E6D67605417F865AD0797 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -668,7 +603,7 @@
 		};
 		CF0891CC19048B3E61EC471EA2643FE9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C1EE4B97D02463CB7C4D4F85F068867 /* MBProgressHUD.xcconfig */;
+			baseConfigurationReference = 06A2D0A33851B470C47251873FBDDBF8 /* MBProgressHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -698,9 +633,9 @@
 			};
 			name = Release;
 		};
-		EADE6F60BC4FFCB2EEE0E5B3CFC79783 /* Release */ = {
+		E2D0767E8439C48BF488DC4564B5FEEB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62B8C2DF25455B122F091E0528719264 /* Pods-benhvien-appTests.release.xcconfig */;
+			baseConfigurationReference = 39C3266AA51F3CD1FCACC3546B31CD80 /* PureLayout.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -714,18 +649,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-benhvien-appTests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureLayout/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-benhvien-appTests/Pods-benhvien-appTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_benhvien_appTests;
+				PRODUCT_NAME = PureLayout;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -778,42 +709,6 @@
 			};
 			name = Release;
 		};
-		FE2C486E604767EA122C6383DE5DD03E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A76D5BCE5FAF912AEDC0CF46051DF5A /* Pods-benhvien-app.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-benhvien-app/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-benhvien-app/Pods-benhvien-app.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_benhvien_app;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -826,29 +721,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E99FB2DA70F61093B51505DE9389F81 /* Build configuration list for PBXNativeTarget "Pods-benhvien-app" */ = {
+		407D464596BCB3AF89AC2C045E3A83C1 /* Build configuration list for PBXNativeTarget "PureLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A73DD267AE7BC13D17A24C023E34987 /* Debug */,
-				FE2C486E604767EA122C6383DE5DD03E /* Release */,
+				2BD512D66129BCD035EB768FD319C4E0 /* Debug */,
+				E2D0767E8439C48BF488DC4564B5FEEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		942645B110C055A29FE6E50C35577723 /* Build configuration list for PBXNativeTarget "Pods-benhvien-appUITests" */ = {
+		4E993F30CC76BD32F65ACBA9DEF4BE10 /* Build configuration list for PBXNativeTarget "Pods-benhvien-app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1B0255C6616E7FBE4AB6AA38485ACA9F /* Debug */,
-				3B5EC3EEBEEE4CCE83831574DE14C07F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C67A6E537B2DF7C97CF3EAD64110D796 /* Build configuration list for PBXNativeTarget "Pods-benhvien-appTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1E179114FFEC795DB079B4E6EE11F00F /* Debug */,
-				EADE6F60BC4FFCB2EEE0E5B3CFC79783 /* Release */,
+				A1A19D0F3F58FC939B5212C28C8C621A /* Debug */,
+				B74102B56A0D17FCD9392E85887A20AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -9,11 +9,20 @@
 /* Begin PBXBuildFile section */
 		B04FC4369D4547F02F3F8F6F /* Pods_benhvien_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598AE98675082ED3B0373D33 /* Pods_benhvien_app.framework */; };
 		EE4DD6321F261C1B00045772 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4DD6311F261C1B00045772 /* main.m */; };
-		EE4DD6351F261C1B00045772 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4DD6341F261C1B00045772 /* AppDelegate.m */; };
 		EE4DD6381F261C1B00045772 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4DD6371F261C1B00045772 /* ViewController.m */; };
-		EE4DD63B1F261C1B00045772 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4DD6391F261C1B00045772 /* Main.storyboard */; };
 		EE4DD63D1F261C1B00045772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE4DD63C1F261C1B00045772 /* Assets.xcassets */; };
 		EE4DD6401F261C1B00045772 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4DD63E1F261C1B00045772 /* LaunchScreen.storyboard */; };
+		EE4DD6661F26234600045772 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4DD6651F26234600045772 /* AppDelegate.m */; };
+		EE4DD66C1F26252A00045772 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4DD66B1F26252A00045772 /* BaseViewController.m */; };
+		EE4DD66F1F26272500045772 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4DD66E1F26272500045772 /* BaseTabBarController.m */; };
+		EE4DD6721F26275100045772 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4DD6711F26275100045772 /* BaseNavigationController.m */; };
+		EE4DD6751F26291100045772 /* FirstLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4DD6741F26291100045772 /* FirstLogin.storyboard */; };
+		EE4DD6781F26294900045772 /* FirstLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4DD6771F26294900045772 /* FirstLoginViewController.m */; };
+		EE4DD6861F2634EF00045772 /* UIAlertController+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4DD67D1F2634EF00045772 /* UIAlertController+Blocks.m */; };
+		EE4DD6871F2634F000045772 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4DD67F1F2634EF00045772 /* UIColor+Hex.m */; };
+		EE4DD6881F2634F000045772 /* UITextField+Padding.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4DD6811F2634EF00045772 /* UITextField+Padding.m */; };
+		EE4DD6891F2634F000045772 /* UIView+Nib.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4DD6831F2634EF00045772 /* UIView+Nib.m */; };
+		EE4DD68A1F2634F000045772 /* UIViewController+Storyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4DD6851F2634EF00045772 /* UIViewController+Storyboard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,11 +37,8 @@
 		DEEB8B3AD47FBB13D7BCDB79 /* Pods-benhvien-appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-benhvien-appUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-benhvien-appUITests/Pods-benhvien-appUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EE4DD62D1F261C1B00045772 /* benhvien-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "benhvien-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE4DD6311F261C1B00045772 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EE4DD6331F261C1B00045772 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		EE4DD6341F261C1B00045772 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EE4DD6361F261C1B00045772 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EE4DD6371F261C1B00045772 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EE4DD63A1F261C1B00045772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE4DD63C1F261C1B00045772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE4DD63F1F261C1B00045772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE4DD6411F261C1B00045772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,6 +46,27 @@
 		EE4DD64C1F261C1C00045772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE4DD6551F261C1C00045772 /* benhvien_appUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = benhvien_appUITests.m; sourceTree = "<group>"; };
 		EE4DD6571F261C1C00045772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE4DD6641F26234600045772 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE4DD6651F26234600045772 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE4DD66A1F26252A00045772 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		EE4DD66B1F26252A00045772 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		EE4DD66D1F26272500045772 /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		EE4DD66E1F26272500045772 /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		EE4DD6701F26275100045772 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		EE4DD6711F26275100045772 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		EE4DD6741F26291100045772 /* FirstLogin.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FirstLogin.storyboard; sourceTree = "<group>"; };
+		EE4DD6761F26294900045772 /* FirstLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstLoginViewController.h; sourceTree = "<group>"; };
+		EE4DD6771F26294900045772 /* FirstLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstLoginViewController.m; sourceTree = "<group>"; };
+		EE4DD67C1F2634EF00045772 /* UIAlertController+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Blocks.h"; sourceTree = "<group>"; };
+		EE4DD67D1F2634EF00045772 /* UIAlertController+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Blocks.m"; sourceTree = "<group>"; };
+		EE4DD67E1F2634EF00045772 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		EE4DD67F1F2634EF00045772 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		EE4DD6801F2634EF00045772 /* UITextField+Padding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Padding.h"; sourceTree = "<group>"; };
+		EE4DD6811F2634EF00045772 /* UITextField+Padding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Padding.m"; sourceTree = "<group>"; };
+		EE4DD6821F2634EF00045772 /* UIView+Nib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Nib.h"; sourceTree = "<group>"; };
+		EE4DD6831F2634EF00045772 /* UIView+Nib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Nib.m"; sourceTree = "<group>"; };
+		EE4DD6841F2634EF00045772 /* UIViewController+Storyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Storyboard.h"; sourceTree = "<group>"; };
+		EE4DD6851F2634EF00045772 /* UIViewController+Storyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Storyboard.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +127,12 @@
 		EE4DD62F1F261C1B00045772 /* benhvien-app */ = {
 			isa = PBXGroup;
 			children = (
-				EE4DD6331F261C1B00045772 /* AppDelegate.h */,
-				EE4DD6341F261C1B00045772 /* AppDelegate.m */,
+				EE4DD6791F2634EF00045772 /* Libraries */,
+				EE4DD6731F26289200045772 /* StoryBoards */,
+				EE4DD6671F26250600045772 /* ViewController */,
+				EE4DD6631F26234600045772 /* App */,
 				EE4DD6361F261C1B00045772 /* ViewController.h */,
 				EE4DD6371F261C1B00045772 /* ViewController.m */,
-				EE4DD6391F261C1B00045772 /* Main.storyboard */,
 				EE4DD63C1F261C1B00045772 /* Assets.xcassets */,
 				EE4DD63E1F261C1B00045772 /* LaunchScreen.storyboard */,
 				EE4DD6411F261C1B00045772 /* Info.plist */,
@@ -137,6 +165,87 @@
 				EE4DD6571F261C1C00045772 /* Info.plist */,
 			);
 			path = "benhvien-appUITests";
+			sourceTree = "<group>";
+		};
+		EE4DD6631F26234600045772 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EE4DD6641F26234600045772 /* AppDelegate.h */,
+				EE4DD6651F26234600045772 /* AppDelegate.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EE4DD6671F26250600045772 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EE4DD6681F26250600045772 /* Base */,
+				EE4DD6691F26250600045772 /* UI */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EE4DD6681F26250600045772 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EE4DD66A1F26252A00045772 /* BaseViewController.h */,
+				EE4DD66B1F26252A00045772 /* BaseViewController.m */,
+				EE4DD66D1F26272500045772 /* BaseTabBarController.h */,
+				EE4DD66E1F26272500045772 /* BaseTabBarController.m */,
+				EE4DD6701F26275100045772 /* BaseNavigationController.h */,
+				EE4DD6711F26275100045772 /* BaseNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		EE4DD6691F26250600045772 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				EE4DD6761F26294900045772 /* FirstLoginViewController.h */,
+				EE4DD6771F26294900045772 /* FirstLoginViewController.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		EE4DD6731F26289200045772 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				EE4DD6741F26291100045772 /* FirstLogin.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		EE4DD6791F2634EF00045772 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				EE4DD67A1F2634EF00045772 /* Categories */,
+			);
+			path = Libraries;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE4DD67A1F2634EF00045772 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EE4DD67B1F2634EF00045772 /* UIAlertController-Blocks */,
+				EE4DD67E1F2634EF00045772 /* UIColor+Hex.h */,
+				EE4DD67F1F2634EF00045772 /* UIColor+Hex.m */,
+				EE4DD6801F2634EF00045772 /* UITextField+Padding.h */,
+				EE4DD6811F2634EF00045772 /* UITextField+Padding.m */,
+				EE4DD6821F2634EF00045772 /* UIView+Nib.h */,
+				EE4DD6831F2634EF00045772 /* UIView+Nib.m */,
+				EE4DD6841F2634EF00045772 /* UIViewController+Storyboard.h */,
+				EE4DD6851F2634EF00045772 /* UIViewController+Storyboard.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		EE4DD67B1F2634EF00045772 /* UIAlertController-Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				EE4DD67C1F2634EF00045772 /* UIAlertController+Blocks.h */,
+				EE4DD67D1F2634EF00045772 /* UIAlertController+Blocks.m */,
+			);
+			path = "UIAlertController-Blocks";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,8 +310,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE4DD6401F261C1B00045772 /* LaunchScreen.storyboard in Resources */,
+				EE4DD6751F26291100045772 /* FirstLogin.storyboard in Resources */,
 				EE4DD63D1F261C1B00045772 /* Assets.xcassets in Resources */,
-				EE4DD63B1F261C1B00045772 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,23 +370,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE4DD6861F2634EF00045772 /* UIAlertController+Blocks.m in Sources */,
+				EE4DD6781F26294900045772 /* FirstLoginViewController.m in Sources */,
+				EE4DD66F1F26272500045772 /* BaseTabBarController.m in Sources */,
+				EE4DD6891F2634F000045772 /* UIView+Nib.m in Sources */,
+				EE4DD6661F26234600045772 /* AppDelegate.m in Sources */,
+				EE4DD68A1F2634F000045772 /* UIViewController+Storyboard.m in Sources */,
+				EE4DD6871F2634F000045772 /* UIColor+Hex.m in Sources */,
+				EE4DD6721F26275100045772 /* BaseNavigationController.m in Sources */,
+				EE4DD66C1F26252A00045772 /* BaseViewController.m in Sources */,
 				EE4DD6381F261C1B00045772 /* ViewController.m in Sources */,
-				EE4DD6351F261C1B00045772 /* AppDelegate.m in Sources */,
 				EE4DD6321F261C1B00045772 /* main.m in Sources */,
+				EE4DD6881F2634F000045772 /* UITextField+Padding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EE4DD6391F261C1B00045772 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EE4DD63A1F261C1B00045772 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EE4DD63E1F261C1B00045772 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
