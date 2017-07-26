@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "UIViewController+Storyboard.h"
 @interface BaseViewController : UIViewController
 
 @end

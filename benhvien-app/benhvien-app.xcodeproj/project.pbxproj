@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B04FC4369D4547F02F3F8F6F /* Pods_benhvien_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598AE98675082ED3B0373D33 /* Pods_benhvien_app.framework */; };
+		EE40FCBE1F28B80C00DC3815 /* FirstLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE40FCBD1F28B80C00DC3815 /* FirstLoginViewController.m */; };
+		EE40FCC11F28B84100DC3815 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE40FCC01F28B84100DC3815 /* LoginViewController.m */; };
 		EE4DD6321F261C1B00045772 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4DD6311F261C1B00045772 /* main.m */; };
 		EE4DD6381F261C1B00045772 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4DD6371F261C1B00045772 /* ViewController.m */; };
 		EE4DD63D1F261C1B00045772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE4DD63C1F261C1B00045772 /* Assets.xcassets */; };
@@ -17,7 +19,6 @@
 		EE4DD66F1F26272500045772 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4DD66E1F26272500045772 /* BaseTabBarController.m */; };
 		EE4DD6721F26275100045772 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4DD6711F26275100045772 /* BaseNavigationController.m */; };
 		EE4DD6751F26291100045772 /* FirstLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4DD6741F26291100045772 /* FirstLogin.storyboard */; };
-		EE4DD6781F26294900045772 /* FirstLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4DD6771F26294900045772 /* FirstLoginViewController.m */; };
 		EE4DD6861F2634EF00045772 /* UIAlertController+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4DD67D1F2634EF00045772 /* UIAlertController+Blocks.m */; };
 		EE4DD6871F2634F000045772 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4DD67F1F2634EF00045772 /* UIColor+Hex.m */; };
 		EE4DD6881F2634F000045772 /* UITextField+Padding.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4DD6811F2634EF00045772 /* UITextField+Padding.m */; };
@@ -35,6 +36,10 @@
 		C1814005A7E9A4C301086EDD /* Pods_benhvien_appUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_benhvien_appUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE8091B234799981A869024 /* Pods_benhvien_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_benhvien_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEEB8B3AD47FBB13D7BCDB79 /* Pods-benhvien-appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-benhvien-appUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-benhvien-appUITests/Pods-benhvien-appUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE40FCBC1F28B80C00DC3815 /* FirstLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstLoginViewController.h; sourceTree = "<group>"; };
+		EE40FCBD1F28B80C00DC3815 /* FirstLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstLoginViewController.m; sourceTree = "<group>"; };
+		EE40FCBF1F28B84100DC3815 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ../../../StoryBoards/LoginViewController.h; sourceTree = "<group>"; };
+		EE40FCC01F28B84100DC3815 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ../../../StoryBoards/LoginViewController.m; sourceTree = "<group>"; };
 		EE4DD62D1F261C1B00045772 /* benhvien-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "benhvien-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE4DD6311F261C1B00045772 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE4DD6361F261C1B00045772 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -55,8 +60,6 @@
 		EE4DD6701F26275100045772 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		EE4DD6711F26275100045772 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		EE4DD6741F26291100045772 /* FirstLogin.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FirstLogin.storyboard; sourceTree = "<group>"; };
-		EE4DD6761F26294900045772 /* FirstLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstLoginViewController.h; sourceTree = "<group>"; };
-		EE4DD6771F26294900045772 /* FirstLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstLoginViewController.m; sourceTree = "<group>"; };
 		EE4DD67C1F2634EF00045772 /* UIAlertController+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Blocks.h"; sourceTree = "<group>"; };
 		EE4DD67D1F2634EF00045772 /* UIAlertController+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Blocks.m"; sourceTree = "<group>"; };
 		EE4DD67E1F2634EF00045772 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
@@ -103,6 +106,25 @@
 			);
 			name = Pods;
 			sourceTree = "<group>";
+		};
+		EE40FCBB1F28B80C00DC3815 /* FirstLogin */ = {
+			isa = PBXGroup;
+			children = (
+				EE40FCBC1F28B80C00DC3815 /* FirstLoginViewController.h */,
+				EE40FCBD1F28B80C00DC3815 /* FirstLoginViewController.m */,
+			);
+			path = FirstLogin;
+			sourceTree = "<group>";
+		};
+		EE40FCC21F28B92300DC3815 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EE40FCBF1F28B84100DC3815 /* LoginViewController.h */,
+				EE40FCC01F28B84100DC3815 /* LoginViewController.m */,
+			);
+			name = Login;
+			path = "benhvien-app/ViewController/UI/Login";
+			sourceTree = SOURCE_ROOT;
 		};
 		EE4DD6241F261C1B00045772 = {
 			isa = PBXGroup;
@@ -201,8 +223,8 @@
 		EE4DD6691F26250600045772 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				EE4DD6761F26294900045772 /* FirstLoginViewController.h */,
-				EE4DD6771F26294900045772 /* FirstLoginViewController.m */,
+				EE40FCC21F28B92300DC3815 /* Login */,
+				EE40FCBB1F28B80C00DC3815 /* FirstLogin */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -371,11 +393,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE4DD6861F2634EF00045772 /* UIAlertController+Blocks.m in Sources */,
-				EE4DD6781F26294900045772 /* FirstLoginViewController.m in Sources */,
 				EE4DD66F1F26272500045772 /* BaseTabBarController.m in Sources */,
+				EE40FCC11F28B84100DC3815 /* LoginViewController.m in Sources */,
 				EE4DD6891F2634F000045772 /* UIView+Nib.m in Sources */,
 				EE4DD6661F26234600045772 /* AppDelegate.m in Sources */,
 				EE4DD68A1F2634F000045772 /* UIViewController+Storyboard.m in Sources */,
+				EE40FCBE1F28B80C00DC3815 /* FirstLoginViewController.m in Sources */,
 				EE4DD6871F2634F000045772 /* UIColor+Hex.m in Sources */,
 				EE4DD6721F26275100045772 /* BaseNavigationController.m in Sources */,
 				EE4DD66C1F26252A00045772 /* BaseViewController.m in Sources */,
